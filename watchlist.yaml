@@ -22,7 +22,7 @@ calendars:
       # und als GitHub-Secret FCB_FRAUEN_ICS_URL hinterlegen.
       - id: fcb-ics
         type: ics
-        url_env: FCB_FRAUEN_ICS_URL
+        url_env: https://fcbayern.com/frauen/de/match-center/matchplan
         # exclude_regex: "(?i)2\\. Mannschaft"   # falls der Feed beide Teams mischt
 
   - id: dfb-frauen
@@ -48,7 +48,7 @@ calendars:
       # Erwartet: Tabelle mit Spalten Datum | Uhrzeit | Veranstaltung | Ort | TV
       - id: dfb-maenner-tabelle
         type: dfb_table
-        url: https://www.dfb.de/maenner/nationalmannschaften/a-nationalmannschaft/spiele-und-termine
+        url: https://www.dfb.de/maenner/nationalmannschaften/nationalmannschaft/spiele-und-termine
         include_regex: "Deutschland"
         include_ranges: false
         duration_minutes: 120
