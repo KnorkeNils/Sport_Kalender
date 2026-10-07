@@ -22,7 +22,7 @@ calendars:
       # und als GitHub-Secret FCB_FRAUEN_ICS_URL hinterlegen.
       - id: fcb-ics
         type: ics
-        url: https://fcbayern.com/frauen/de/match-center/matchplan
+        #url: https://fcbayern.com/frauen/de/match-center/matchplan
         # exclude_regex: "(?i)2\\. Mannschaft"   # falls der Feed beide Teams mischt
 
   - id: dfb-frauen
